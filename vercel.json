@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "api/**/*.php": {
+            "runtime": "php:8.1"
+        }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/index.php"
+        }
+    ]
+}
